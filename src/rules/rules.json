@@ -1,0 +1,14 @@
+{
+    "Parque": [{
+"brinquedos":[
+    {"nome": "Casa Assombrada", "regras": ["idade", "altura"] },
+    {"nome": "Montanha-russa", "regras": ["altura"] },
+    {"nome": "Carrinho de bate-bate", "regras": []}
+]
+    },
+{
+    "regras": [{
+        {"idade"}
+        }]
+    }
+]}
