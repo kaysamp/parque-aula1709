@@ -1,14 +1,15 @@
 {
-    "Parque": [{
-"brinquedos":[
+   "Parque": [{
+"brinquedos": [
     {"nome": "Casa Assombrada", "regras": ["idade", "altura"] },
     {"nome": "Montanha-russa", "regras": ["altura"] },
     {"nome": "Carrinho de bate-bate", "regras": []}
 ]
     },
 {
-    "regras": [{
-        {"idade"}
-        }]
+    "regras": [
+        {"nome": "idade", "regra": ">= 18"},
+        {"nome": "altura", "regra": ">=170"}
+    ]
     }
 ]}
