@@ -1,14 +1,16 @@
-function calcularidade (data) {
-    
+function calcularIdade(ano, mes, dia) {}
+
+function verificarFaixaEtaria(idade) {
+  if (idade >= 65) {
+    return "você é idoso";
+  } else if (idade >= 25) {
+    return "você é adulto";
+  } else if (idade >= 18) {
+    return "você é jovem adulto";
+  } else {
+    return "você é criança";
+  }
 }
-function verificarfaixaetaria (faixaetaria) { 
-    let anos = Number.faixaetaria
-if (anos >= 18) {
-    return null
-    } else {
-        return "Idade mínima: 18 anos";
-    }
-}
-function calcularmetrosporcentimetros (centimetros) {
- 
+function metrosCentimetros(metros) {
+  return metros * 100;
 }
